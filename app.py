@@ -3,7 +3,7 @@ def perform_operation(num1, num2, operation):
     if operation == "add":
             return num1 + num2
     elif operation == "sub":
-            return num1 - num2
+            return num1 - num2 + 1
     elif operation == "mul":
             return num1 * num2
     elif operation == "div":
