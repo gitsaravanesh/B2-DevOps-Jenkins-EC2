@@ -1,6 +1,6 @@
 import sys
 def perform_operation(num1, num2, operation):
-    if operation == "add":
+    if operation == "add"
             return num1 + num2
     elif operation == "sub":
             return num1 - num2 + 1
@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
     elif operation == "div":
         return num1 / num2
     else:
-            return "Invalid operations"
+            return "Invalid operations
 
 # Get input values from command line arguments
 num1 = float(sys.argv[1])
