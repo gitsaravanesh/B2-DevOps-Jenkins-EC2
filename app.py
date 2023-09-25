@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
     elif operation == "div":
         return num1 / num2
     else:
-            return "Invalid operations"
+            return "Invalid operation"
 
 # Get input values from command line arguments
 num1 = float(sys.argv[1])
