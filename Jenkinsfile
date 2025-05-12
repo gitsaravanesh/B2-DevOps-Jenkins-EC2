@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'fd80a6af-9cc0-432a-91a3-d05882601c2c', url: 'https://github.com/cloudtechtrainer/B2-DevOps-Jenkins-EC2.git']])
-            }
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/gitsaravanesh/CICD-jenkins-simple-testing.git']])            }
         }
         
         stage('Check Dependencies') {
